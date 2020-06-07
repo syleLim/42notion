@@ -1,6 +1,6 @@
 # 42notion
 
-### 01 Libft
+## 01 Libft
 #### 목표
 c standard library의 일부를 직접 제작해 본다.
 <br><br>
@@ -24,7 +24,7 @@ c standard library의 일부를 직접 제작해 본다.
 2. standard library에 있는 함수들
 <br><br><br>
 
-### 02 get_next_line
+## 02 get_next_line
 #### 목표
 static변수를 이용해 주어진 메모리만큼 데이터를 읽고 한줄씩 출력하는 함수를 작성한다.
 <br><br>
@@ -46,7 +46,7 @@ static변수를 이용해 주어진 메모리만큼 데이터를 읽고 한줄�
 3. 포인터를 이차포인터로 함수에 넘기는 테크닉
 <br><br><br>
 
-### 03 ft_printf
+## 03 ft_printf
 #### 목표
 가변 변수를 활용해서 printf를 재구성한다.
 <br><br>
@@ -68,7 +68,7 @@ static변수를 이용해 주어진 메모리만큼 데이터를 읽고 한줄�
 2. parsing 모델을 구성하는 테크닉
 <br><br><br>
 
-### 04 netwhat
+## 04 netwhat
 #### 목표
 network에 대한 기본 지식을 익힌다.
 <br><br>
@@ -84,7 +84,7 @@ network에 대한 기본 지식을 익힌다.
 2. NetMask 계산법
 <br><br><br>
 
-### 05 ft_server
+## 05 ft_server
 #### 목표
 docker file을 통해 webserver container를 만든다.
 <br><br>
@@ -107,7 +107,7 @@ docker file을 통해 webserver container를 만든다.
 3. configuration 파일 설정법
 <br><br><br>
 
-### 06 cub3d
+## 06 cub3d
 #### 목표
 간단한 ray casting 화면을 구성한다.
 <br><br>
@@ -128,7 +128,7 @@ docker file을 통해 webserver container를 만든다.
 1. Raycasting 연산법
 <br><br><br>
 
-### 07 miniRT
+## 07 miniRT
 #### 목표
 간단한 ray tracing model을 만든다.
 <br><br>
@@ -155,7 +155,7 @@ docker file을 통해 webserver container를 만든다.
 3. lighting 연산법
 <br><br><br>
 
-### 08 libasm
+## 08 libasm
 #### 목표
 asm을 사용해 linux lib을 작성한다.
 <br><br>
@@ -172,7 +172,7 @@ asm을 사용해 linux lib을 작성한다.
 
 <br><br><br>
 
-### 09 ft_service
+## 09 ft_service
 #### 목표
 kubernetes와 docker container를 통해 분산서버 서비스를 관리하는 cluster를 만든다.
 <br><br>
@@ -191,13 +191,14 @@ kubernetes와 docker container를 통해 분산서버 서비스를 관리하는 
     - kubernetes cluster의 volume구성법 with yaml
     - kubernetes의 pod 구성법(service, deployment, ...) with yaml
 <br><br>
+
 #### GAIN
 1. docker container를 구성하는 방법
 2. kubernetes cluster를 통해 분산 서버 서비스를 관리하는 방법
 
 <br><br><br>
 
-### 10 miniShell
+## 10 miniShell
 #### 목표
 간단한 command line프로그램을 process를 활용해 제작한다.
 <br><br>
@@ -221,7 +222,7 @@ kubernetes와 docker container를 통해 분산서버 서비스를 관리하는 
 
 Preview
 ===
-### 11 Philosopers
+## 11 Philosopers
 #### 목표
 thread를 활용한 시뮬레이션만들기
 <br><br>
@@ -236,7 +237,7 @@ thread를 활용한 시뮬레이션만들기
     - mutex, semaphore를 통한 동시성 프로그램의 자원을 관리하는 법
 <br><br><br>
 
-### 12 CPP Module 00 ~ 08
+## 12 CPP Module 00 ~ 08
 #### 목표
 C++을 익힌다.
 <br><br>
@@ -245,7 +246,7 @@ C++을 익힌다.
 1. C++에 대한 전반적인 지식
 <br><br><br>
 
-### 13 ft_containers 
+## 13 ft_containers 
 #### 목표
 C++ STL container의 재구성
 <br><br>
@@ -256,7 +257,7 @@ C++ STL container의 재구성
     - 각각의 container을 구현하는 법
 <br><br><br>
 
-### 14 ft_irc
+## 14 ft_irc
 #### 목표
 IRC server을 RFC규격에 맞도록 c++을 이용해서 구성해본다.
 <br><br>
@@ -273,7 +274,7 @@ IRC server을 RFC규격에 맞도록 c++을 이용해서 구성해본다.
     - IRC server를 구성하고 띄우는 방법
 <br><br><br>
 
-### 15 webserv
+## 15 webserv
 #### 목표
 C++을 이용해서 HTTP server를 구성한다.
 <br><br>
